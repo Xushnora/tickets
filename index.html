@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section class="site">
+        <div class="container">
+            <div class="row pt-3">
+                <div class="sitebar mb-4 col-lg-4 col-xs-12">
+                    <nav class="navbar mb-3">
+                        <div class="container">
+                            <a class="navbar-brand logo" href="#">Tickets4U</a>
+                        </div>
+                    </nav>
+                    <div class="btn-group d-flex cars-box mb-3" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-success cars-btn">
+                            <div class="btn-inner">
+                                <i class='bx bxs-plane'></i>
+                                <p class="cars">Flight</p>
+                            </div>
+                        </button>
+                        <button type="button" class="btn btn-light cars-btn">
+                            <div class="btn-inner">
+                                <i class='bx bxs-train'></i>
+                                <p class="cars">Trains</p>
+                            </div>
+                        </button>
+                        <button type="button" class="btn btn-light cars-btn">
+                            <div class="btn-inner">
+                                <i class='bx bxs-ship'></i>
+                                <p class="cars">Ship</p>
+                            </div>
+                        </button>
+                        <button type="button" class="btn btn-light cars-btn">
+                            <div class="btn-inner">
+                                <i class='bx bxs-car'></i>
+                                <p class="cars">Cars</p>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="container mb-3">
+                        <h3 class="best">Best flight deals with</h3>
+                        <a class="logo" href="#">
+                            Tickets4U
+                        </a>
+                    </div>
+                    <form class="container">
+                        <label class="label-box mb-3">
+                            <p class="label-text">Depart from</p>
+                            <div class="input-group flex-nowrap input-box">
+                                <span class="input-group-text bg-white" id="addon-wrapping"><i
+                                        class='bx bxs-plane-take-off plans-bx'></i></span>
+                                <input type="text" class="form-control" placeholder="London-All Airpots, England, UK"
+                                    aria-label="Username" aria-describedby="addon-wrapping">
+                            </div>
+                        </label>
+                        <label class="label-box mb-3">
+                            <p class="label-text">Arrive at</p>
+                            <div class="input-group flex-nowrap input-box">
+                                <span class="input-group-text bg-white" id="addon-wrapping"><i
+                                        class='bx bxs-plane-land plans-bx'></i></span>
+                                <input type="text" class="form-control"
+                                    placeholder="New York-All Airpots, New York, USA" aria-label="Username"
+                                    aria-describedby="addon-wrapping">
+                            </div>
+                        </label>
+                        <div class="date-box d-flex mb-2">
+                            <label class="label-boxes">
+                                <p class="label-text">Departure Date</p>
+                                <div class="input-group flex-nowrap input-box date-box">
+                                    <span class="input-group-text bg-white date-span" id="addon-wrapping"><i
+                                            class='bx bxs-calendar'></i></span>
+                                    <input type="text" class="form-control date-input" placeholder="11/11/2019"
+                                        aria-label="Username" aria-describedby="addon-wrapping">
+                                </div>
+                            </label>
+                            <label class="label-boxes">
+                                <p class="label-text">Return date</p>
+                                <div class="input-group flex-nowrap input-box date-box">
+                                    <span class="input-group-text bg-white date-span" id="addon-wrapping"><i
+                                            class='bx bxs-calendar'></i></span>
+                                    <input type="text" class="form-control date-input" placeholder="30/11/2019"
+                                        aria-label="Username" aria-describedby="addon-wrapping">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="date-box d-flex mb-2">
+                            <label class="label-boxes">
+                                <p class="label-text">Departure Date</p>
+                                <div class="input-group flex-nowrap input-box date-box">
+                                    <span class="input-group-text bg-white date-span" id="addon-wrapping"><i
+                                            class='bx bxs-calendar'></i></span>
+                                    <input type="text" class="form-control date-input" placeholder="Economy"
+                                        aria-label="Username" aria-describedby="addon-wrapping">
+                                </div>
+                            </label>
+                            <label class="label-boxes">
+                                <p class="label-text">Return date</p>
+                                <div class="input-group flex-nowrap input-box date-box">
+                                    <span class="input-group-text bg-white date-span" id="addon-wrapping"><i
+                                            class='bx bxs-user'></i></span>
+                                    <input type="number" class="form-control date-input" placeholder="2"
+                                        aria-label="Username" aria-describedby="addon-wrapping">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-primary" type="button">FIND FLIGHT</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="main mb-4 col-lg-8 col-xs-12">
+                    <div class="container">
+                        <div class="d-flex justify-content-between pt-3">
+                            <div class="results-box">
+                                <h3 class="results-title">Search results</h3>
+                                <p class="results-text">we found 15 results</p>
+                            </div>
+                            <ul class="nav justify-content-end">
+                                <li class="nav-item ms-2">
+                                    <a class="nav-link btns-cheap" aria-current="page" href="#">cheapest</a>
+                                </li>
+                                <li class="nav-item ms-2">
+                                    <a class="nav-link btns-cheap" href="#">shortest</a>
+                                </li>
+                                <li class="nav-item ms-2">
+                                    <a class="nav-link active active2 btns-cheap" href="#">recomended</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="country-box mb-3">
+                            <p class="city">London</p><i class='bx bx-right-arrow-alt ms-3 me-3'></i><p class="city">New York</p>
+                        </div>
+                        <div class="card mb-2">
+                            <div class="card-body d-flex justify-content-between">
+                                <img class="cards-img" src="./imgs/british.jpeg" alt="picsum">
+                                <div class="depart">
+                                    <p class="depart-text">Depart</p>
+                                    <p class="depart-date">11/11/2019</p>
+                                    <p class="depart-time">12:34 PM</p>
+                                </div>
+                                <div class="depart stops-box">
+                                    <p class="dots">. . .</p>
+                                </div>
+                                <div class="depart stops-box">
+                                    <a class="stops" href="#">0 Stops</a>
+                                    <p class="depart-date">8 hour 23 mins</p>
+                                </div>
+                                <div class="depart stops-box">
+                                    <p class="dots">. . .</p>
+                                </div>
+                                <div class="depart">
+                                    <p class="depart-text">Depart</p>
+                                    <p class="depart-date">11/11/2019</p>
+                                    <p class="depart-time">12:34 PM</p>
+                                </div>
+                                <div class="depart">
+                                    <p class="depart-text">Price</p>
+                                    <p class="dollar">$ 856</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-2">
+                            <div class="card-body  d-flex justify-content-between">
+                                <img class="cards-img" src="./imgs/wizz.png" alt="picsum">
+                                <div class="depart">
+                                    <p class="depart-text">Depart</p>
+                                    <p class="depart-date">11/11/2019</p>
+                                    <p class="depart-time">12:34 PM</p>
+                                </div>
+                                <div class="depart stops-box">
+                                    <p class="dots">. . .</p>
+                                </div>
+                                <div class="depart stops-box">
+                                    <a class="stops" href="#">0 Stops</a>
+                                    <p class="depart-date">8 hour 23 mins</p>
+                                </div>
+                                <div class="depart stops-box">
+                                    <p class="dots">. . .</p>
+                                </div>
+                                <div class="depart">
+                                    <p class="depart-text">Depart</p>
+                                    <p class="depart-date">11/11/2019</p>
+                                    <p class="depart-time">12:34 PM</p>
+                                </div>
+                                <div class="depart">
+                                    <p class="depart-text">Price</p>
+                                    <p class="dollar">$ 856</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-2">
+                            <div class="card-body  d-flex justify-content-between">
+                                <img class="cards-img" src="./imgs/americanlogo.png" alt="picsum">
+                                <div class="depart">
+                                    <p class="depart-text">Depart</p>
+                                    <p class="depart-date">11/11/2019</p>
+                                    <p class="depart-time">12:34 PM</p>
+                                </div>
+                                <div class="depart stops-box">
+                                    <p class="dots">. . .</p>
+                                </div>
+                                <div class="depart stops-box">
+                                    <a class="stops" href="#">0 Stops</a>
+                                    <p class="depart-date">8 hour 23 mins</p>
+                                </div>
+                                <div class="depart stops-box">
+                                    <p class="dots">. . .</p>
+                                </div>
+                                <div class="depart">
+                                    <p class="depart-text">Depart</p>
+                                    <p class="depart-date">11/11/2019</p>
+                                    <p class="depart-time">12:34 PM</p>
+                                </div>
+                                <div class="depart">
+                                    <p class="depart-text">Price</p>
+                                    <p class="dollar">$ 856</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-2">
+                            <div class="card-body d-flex justify-content-between">
+                                <img class="cards-img" src="./imgs/wizz.png" alt="picsum">
+                                <div class="depart">
+                                    <p class="depart-text">Depart</p>
+                                    <p class="depart-date">11/11/2019</p>
+                                    <p class="depart-time">12:34 PM</p>
+                                </div>
+                                <div class="depart stops-box">
+                                    <p class="dots">. . .</p>
+                                </div>
+                                <div class="depart stops-box">
+                                    <a class="stops" href="#">0 Stops</a>
+                                    <p class="depart-date">8 hour 23 mins</p>
+                                </div>
+                                <div class="depart stops-box">
+                                    <p class="dots">. . .</p>
+                                </div>
+                                <div class="depart">
+                                    <p class="depart-text">Depart</p>
+                                    <p class="depart-date">11/11/2019</p>
+                                    <p class="depart-time">12:34 PM</p>
+                                </div>
+                                <div class="depart">
+                                    <p class="depart-text">Price</p>
+                                    <p class="dollar">$ 856</p>
+                                </div>
+                            </div>
+                        </div>
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                              <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                  <span aria-hidden="true">&laquo;</span>
+                                </a>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item"><a class="page-link" href="#">2</a></li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                  <span aria-hidden="true">&raquo;</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(124deg, rgba(166,181,204,1) 66%, rgba(66,99,158,1) 66%);
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.site {
+    width: 100%;
+
+}
+
+.sitebar {
+    background-color: #F0F6FC;
+    height: 100vh;
+}
+
+.main {
+    background-color: #DCE1F4;
+    height: 100vh;
+}
+
+.logo {
+    color: #2a3575;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cars-btn:hover {
+    background-color: #198754;
+    outline-color: #198754;
+    color: #fff;
+}
+
+.cars-btn {
+   padding: 0 5px;
+}
+
+.best {
+    font-size: 23px;
+    color: #50525c;
+}
+
+.label-box {
+    width: 100%;
+}
+
+.label-text {
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #50525c;
+    font-weight: 500;
+}
+
+.input-box {
+    width: 100%;
+}
+
+::placeholder {
+    font-size: 14px;
+}
+
+.plans-bx {
+    color: #50525c;
+}
+
+.bxs-calendar {
+    color: #50525c;
+}
+
+.select-box {
+    color: #50525c;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.results-title {
+    margin-bottom: 0;
+    color: #50525c;
+    font-size: 26px;
+}
+.results-text {
+    color: #50525c;
+    font-size: 13px;
+}
+
+.btns-cheap {
+    padding: 5px 20px;
+    border-radius: 15px;
+    background-color: #fff;
+    color: #50525c;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.active2{
+    background-color: blue;
+    color: #fff;
+}
+
+.active2:hover {
+    background: #fff;
+}
+
+.city {
+    display: inline;
+    color: #50525c;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.bx-right-arrow-alt {
+    font-size: 26px;
+    color: #50525c;
+}
+
+.cards-img {
+    width: 130px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.depart-text {
+    color: #50525c;
+    font-size: 10px;
+    margin-bottom: 0;
+}
+.depart-date {
+    color: #50525c;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+.depart-time {
+    color: #50525c;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.stops-box {
+    margin-top: 15px;
+}
+
+.stops {
+    margin-bottom: 0;
+    color: #50525c;
+    font-size: 10px;
+    padding: 3px 8px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.dollar {
+    color: #50525c;
+    font-weight: bold;
+    font-size: 23px;
+}
+.dots {
+    color: #50525c;
+    font-weight: bold;
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+}
+
+@media screen and (max-width: 778px) {
+    .container {
+        width: 95%;
+    } 
+
+    .card {
+        width: 90%;
+    }
+}
